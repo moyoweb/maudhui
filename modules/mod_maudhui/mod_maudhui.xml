@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Maudhui</name>
+	<author>Dave Li</author>
+	<creationDate>March 2013</creationDate>
+	<copyright>Copyright (C) 2010 - 2013 Moyo Web Architects. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>dave@moyoweb.nl</authorEmail>
+	<authorUrl>www.moyoweb.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>This module displays articles from Maudhui</description>
+	<files>
+		<filename module="mod_maudhui">mod_maudhui.php</filename>
+	</files>
+	<params>
+		<param name="layout" type="text" default="conversations" label="layout" description="Define the Layout" />
+        <param name="limit" type="text" default="2" label="limit" description="Set the Limit" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="0">Never</option>
+		</param>
+	</params>
+</install>

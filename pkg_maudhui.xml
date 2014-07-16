@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+    <name>Maudui</name>
+    <author>Jasper van Rijbroek</author>
+    <creationDate>Juli 2014</creationDate>
+    <packagename>maudhui</packagename>
+    <version>1.0.0</version>
+    <url>http://www.moyoweb.nl/</url>
+    <packager>Jasper van Rijbroek</packager>
+    <packagerurl>http://www.moyoweb.nl/</packagerurl>
+    <description>Maudhui Package</description>
+    <files folder="packages">
+        <file type="component" id="maudhui">component</file>
+        <file type="module" id="maudhui" client="site">modules</file>
+    </files>
+</extension>
